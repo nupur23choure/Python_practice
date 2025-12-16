@@ -1,3 +1,4 @@
+# Basic oops 
 class StudentManagement:
     def __init__(self, name, student_id, marks):
         self.name = name
@@ -11,7 +12,7 @@ class StudentManagement:
 
     def calculate_grade(self):
         if self.marks < 0 or self.marks > 100:
-          return "EnterInvalid marks"
+          return "Enter Invalid marks"
         switch = {
             'A': lambda: "Excellent" if self.marks >= 90 else None,
             'B': lambda: "Very Good" if self.marks >= 80 else None,
