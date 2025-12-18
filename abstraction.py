@@ -63,7 +63,3 @@ car.start_engine()
 
 motor = Mototrcycle()
 motor.start_engine()
-
-
-# where abstarct class and methods used in real world projects give me examplpe?
-# Abs
